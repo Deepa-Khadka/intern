@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+nav {
+    overflow: hidden;
+    background-color: rgb(83, 191, 191);
+    height: 10vh;
+}
+
+nav a {
+    float: right;
+    padding: 14px 12px 11px 10px;
+    font-size: 20px;
+    text-decoration: none;
+   font-family: Georgia, serif ;
+}
+
+nav a:hover {
+    color: rgb(12, 13, 13);
+
+}
+
+
+span {
+    color: rgb(235, 244, 235);
+}
+
+
+.row {
+    height: 90vh;
+    background-color:#040c24;
+    display: flex;
+	padding: 0px 50px;
+	justify-content: center;
+}
+.col-left {
+	width: 40%;
+	padding: 90px;
+}
+.col-right{
+    width: 75%;
+}
+h1{
+    padding-top: 250px;
+color: aliceblue;
+
+}
+.description{
+    font-size: 15px;
+    font-family:  Garamond, serif;
+    text-align: justify;
+    text-justify: inter-word;
+    color: aliceblue;
+
+   
+}
+
+
+
+/* CSS */
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 20px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+.contact-box{
+    background-color: rgb(158, 146, 146);
+    height: 90vh;
+  
+  
+}
+ .col-first{
+    width: 50%;
+    background-color: #97661b;
+}
+.col-second{
+    width: 50%;
+    background-color: aqua;
+   
+}
